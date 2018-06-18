@@ -1,0 +1,16 @@
+.scrapbook-container {
+    margin: 10px auto;
+    min-height: 85vh;
+    position: relative;
+    width: 80vw;
+}
+.scrapbook-image {
+    width: 20%;
+    border: 10px solid #fff;
+    position: absolute;
+    filter: blur(2px)
+}
+.scrapbook-image:hover{
+    filter: blur(0px);
+    box-shadow: gold 0px 0px 5px 2px ;
+}
